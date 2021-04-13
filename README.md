@@ -1,8 +1,8 @@
 # Proyecto-Supermercado
-Proyecto hecho en las tecnologias
+Proyecto en el que se implementan algunas de las funcionalidades basicas de un ecommerce 
 
 Frontend en: 
-HTML, CSS Y JS
+HTML, CSS Y JS,
 Framework Bootstrap
 
 Backend en:
