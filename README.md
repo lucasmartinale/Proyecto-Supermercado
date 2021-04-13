@@ -1,4 +1,3 @@
-# Proyecto-Supermercado
 Proyecto en el que se implementan algunas de las funcionalidades basicas de un ecommerce 
 
 Frontend en: 
