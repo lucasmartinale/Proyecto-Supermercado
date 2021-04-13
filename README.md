@@ -6,8 +6,7 @@ HTML, CSS Y JS
 Framework Bootstrap
 
 Backend en:
-Java (Framework Apache Spark)
-Velocity
+Java (Framework Spark) y Apache Velocity (templates)
 
 Capturas
 
