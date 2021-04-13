@@ -1,0 +1,36 @@
+<center>
+<h1>Mi carrito</h1>
+
+<TABLE class="table-sm  table-striped table-responsive-sm">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Imagen</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Total</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    #foreach( $i in $items )
+    <TR>
+        <TD><img src=$i.getImagen() width="40" height="40"></TD>
+        <TD>$i.getNombre()</TD>
+        <TD><center>$i.getCantidad()</center></TD>
+        <TD>$ $i.getPrecio() </TD>
+        #set( $value = $i.getPrecio() * $i.getCantidad())
+        <TD>$ $value </TD>
+        <TD>
+            <a type="button" class="btn btn-outline-danger" href="eliminarProductoCarrito?id=$i.getId_producto()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
+                </svg>
+                Eliminar
+            </a>
+        </TD>
+    </TR>
+    #end
+</TABLE>
+</center>
