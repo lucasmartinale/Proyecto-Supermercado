@@ -1,11 +1,11 @@
 # Proyecto-Supermercado
 Proyecto hecho en las tecnologias
 
-*Frontend en: *
+Frontend en: 
 HTML, CSS Y JS
 Framework Bootstrap
 
-*Backend en: *
+Backend en:
 Java (Framework Spark) y Apache Velocity (templates)
 
 Capturas
